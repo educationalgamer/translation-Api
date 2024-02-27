@@ -7,7 +7,7 @@ const port = 3000;
 app.use(express.json());
 
 app.post('/translate', async (req, res) => {
-    // Check if request body contains 'text' key
+    
     try{
         
         const { text } = req.body;
